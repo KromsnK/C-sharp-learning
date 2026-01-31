@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|solutionrelative:controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|solutionrelative:services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|solutionrelative:services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\schoolapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|solutionrelative:schoolapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|solutionrelative:repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261AB72A-1073-480C-8598-F433FE839482}|SchoolAPI.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:08:21.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Controllers\\Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controller.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Controllers\\Controller.cs",
+              "RelativeToolTip": "Controllers\\Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:02:14.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentServices.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\StudentServices.cs",
+              "RelativeDocumentMoniker": "Services\\StudentServices.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\StudentServices.cs",
+              "RelativeToolTip": "Services\\StudentServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:58:22.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\IStudentService.cs",
+              "RelativeToolTip": "Services\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:57:25.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SchoolAPI",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\SchoolAPI.csproj",
+              "RelativeDocumentMoniker": "SchoolAPI.csproj",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\SchoolAPI.csproj*",
+              "RelativeToolTip": "SchoolAPI.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-31T05:56:45.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:52:21.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "Repositories\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:50:26.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:48:31.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

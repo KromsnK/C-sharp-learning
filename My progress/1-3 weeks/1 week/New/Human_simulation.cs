@@ -2,55 +2,108 @@ using System;
 
 namespace Simulation
 {
-    class Human
+    interface IRestable
+    {
+        void Rest();
+    }
+    abstract class Human : IRestable
     {
         public string name;
         public int age;
-        private int health;
-        private int mood;
-        private bool isAlive;
+        protected int health=100;
+        private int maxhealth = 100;
+        protected int mood=50;
+        protected bool isAlive=true;
 
         public Human(string n,int a)
         {
             name = n;
             age = a;
             health = 100;
+            maxhealth = 100;
             mood = 50;
             isAlive = true;
         }
-        public void ChangeHealth(int c)
+        protected void ChangeHealth(int c)
         {
+            
             int change = c;
             health = health + c;
-        }
-        public void ChangeMood(int am)
+            if (health > maxhealth)
+            {
+                health = maxhealth;
+            }
+            else if (health < 0)
+            {
+                health = 0;
+                isAlive = false;
+            }
+            }
+        protected void ChangeMood(int am)
         {
             int ammount = am;
             mood = mood + am;
         }
 
-        public void ShowInfo()
-        {
-            Console.WriteLine("Name: " + name + "\nAge: " + age);
-        }
+        public abstract void ShowInfo();
 
-        public int Rest()
+        public virtual void Rest()
         {
             Console.WriteLine(name + " is resting");
-            ChangeMood(10);
             ChangeHealth(5);
-            return health,mood;
+            ChangeMood(10);
         }
-       
+
+        public abstract void Work();
+
+    }
+    class Student : Human
+    {
+        private int knowledge;
+
+        public Student(string n,int a) : base (n,a)
+        {
+            knowledge = 0;
+        }
+        public override void ShowInfo()
+        {
+            Console.WriteLine("Name: "+name+"\nAge: "+age+"\nHealth: "+health+"\nMood: "+mood+"\nKnowledge: "+knowledge);
+        }
+        public void Study()
+        {
+            Console.WriteLine(name + " is studying");
+            knowledge += 10;
+            ChangeMood(5);
+        }
+        public override void Rest()
+        {
+            Console.WriteLine(name+" is resting");
+            ChangeHealth(5);
+            ChangeMood(10);
+            knowledge -= 1;
+        }
+
+        public override void Work()
+        {
+            Console.WriteLine(name + " is working");
+            knowledge += 10;
+            ChangeHealth(-5);
+            ChangeMood(-10);
+        }
+        
 
     }
     class Program
     {
         static void Main()
         {
-            Human h1 = new Human("Alex", 20);
+            Human h1 = new Student("Anton", 18);
             h1.ShowInfo();
+            
             h1.Rest();
+           
+            h1.ShowInfo();
+           
         }
     }
 }
