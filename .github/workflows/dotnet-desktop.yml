@@ -47,8 +47,9 @@ on:
 jobs:
 
   build:
-
+    timeout-minutes: 15
     strategy:
+      fail-fast: false
       matrix:
         configuration: [Debug, Release]
 
