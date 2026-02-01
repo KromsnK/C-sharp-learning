@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roman\\source\\repos\\C-sharp-learning\\.github\\workflows\\dotnet-desktop.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|solutionrelative:repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +45,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "dotnet-desktop.yml",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\.github\\workflows\\dotnet-desktop.yml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.github\\workflows\\dotnet-desktop.yml",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\.github\\workflows\\dotnet-desktop.yml",
+              "RelativeToolTip": "..\\..\\..\\..\\.github\\workflows\\dotnet-desktop.yml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-02-01T03:20:11.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Controllers\\Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\Controller.cs",
@@ -54,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
@@ -66,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IStudentRepository.cs",
@@ -74,12 +90,11 @@
               "RelativeToolTip": "Repositories\\IStudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T09:20:57.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T09:20:57.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UpdateStudentDto.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\DTOs\\UpdateStudentDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UpdateStudentDto.cs",
@@ -91,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentServices.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\StudentServices.cs",
               "RelativeDocumentMoniker": "Services\\StudentServices.cs",
@@ -103,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\IStudentService.cs",
               "RelativeDocumentMoniker": "Services\\IStudentService.cs",
@@ -112,6 +127,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T06:25:21.123Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             }
           ]
         }
