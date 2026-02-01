@@ -51,14 +51,10 @@
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.github\\workflows\\dotnet-desktop.yml",
               "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\.github\\workflows\\dotnet-desktop.yml",
               "RelativeToolTip": "..\\..\\..\\..\\.github\\workflows\\dotnet-desktop.yml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-02-01T03:20:11.589Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
               "$type": "Document",
@@ -94,8 +90,7 @@
               "RelativeToolTip": "Repositories\\IStudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T09:20:57.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T09:20:57.408Z"
             },
             {
               "$type": "Document",
@@ -132,6 +127,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T06:25:21.123Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             }
           ]
         }
