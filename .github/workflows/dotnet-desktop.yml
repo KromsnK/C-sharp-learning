@@ -79,7 +79,7 @@ jobs:
 
     # Execute all unit tests in the solution
     - name: Build
-      run: dotnet build My progress/1-3 weeks/1 week/SchoolAPI/SchoolAPI.csproj
+      run: dotnet build "My progress/1-3 weeks/1 week/SchoolAPI/SchoolAPI.csproj"
 
     # Restore the application to populate the obj folder with RuntimeIdentifiers
     - name: Restore the application
