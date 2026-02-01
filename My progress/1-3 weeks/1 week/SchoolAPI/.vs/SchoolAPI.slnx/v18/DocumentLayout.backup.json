@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|solutionrelative:repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|solutionrelative:controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|solutionrelative:services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|solutionrelative:services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\my progress\\1-3 weeks\\1 week\\schoolapi\\dtos\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69EAA9A-60D6-49A0-D996-C968DA5AA75F}|SchoolAPI.csproj|solutionrelative:dtos\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Controllers\\Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controller.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Controllers\\Controller.cs",
+              "RelativeToolTip": "Controllers\\Controller.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T01:40:45.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T09:20:59.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "Repositories\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T09:20:57.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\DTOs\\UpdateStudentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateStudentDto.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\DTOs\\UpdateStudentDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T09:20:51.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentServices.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\StudentServices.cs",
+              "RelativeDocumentMoniker": "Services\\StudentServices.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\StudentServices.cs",
+              "RelativeToolTip": "Services\\StudentServices.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwDIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:25:19.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\1-3 weeks\\1 week\\SchoolAPI\\Services\\IStudentService.cs",
+              "RelativeToolTip": "Services\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:25:21.123Z",
+              "EditorCaption": ""
             }
           ]
         }
