@@ -179,8 +179,6 @@ namespace Simulation
             LinqDemo.Linq();
             Human h1 = new Student("Anton", 18);
             Human h2 = new Worker("Maria", 30);
-            Student h3 = new Student("Sofia", 20);
-            Student h4 = new Student("Alex", 20);
             Student[] linqdemo = {
             new Student("David",19),
             new Student("Ben",21),

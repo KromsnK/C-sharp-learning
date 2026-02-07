@@ -35,13 +35,13 @@ class Lab1
             case > 12:
                 do
                 {
-                    Console.WriteLine("Your grade exeedsthe max grade in system. Please enter your grade again: ");
+                    Console.WriteLine("Your grade exeed max grade in system. Please enter your grade again: ");
                     grade = Convert.ToUInt32(Console.ReadLine());
                 }
                 while (grade > 12);
                 break;
         }
-        ;
+        
         Console.WriteLine("========Task 2========");
         Console.WriteLine("Enter x1 and y1: ");
         string[] A = Console.ReadLine().Split();

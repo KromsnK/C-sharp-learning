@@ -1,4 +1,6 @@
-using System
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Arrays_and_LINQ
 {
@@ -20,18 +22,40 @@ namespace Arrays_and_LINQ
             }
             else
             {
-                x1 = (-b + Math.Sqrt(D)) / (2 * a)
-                x2 = (-b - Math.Sqrt(D)) / (2 * a)
+                x1 = (-b + Math.Sqrt(D)) / (2 * a);
+                x2 = (-b - Math.Sqrt(D)) / (2 * a);
                 return 2;
             }
+        }
+        public int NextDay()
+        {
 
+        }
+        public double AverageDouble(params[] nums)
+        {
+            var numbers = nums.OfType<double>();
+
+                         
+
+        }
+    };
+    class Program
+    {
+        public static void Main()
+        {
+            Lab2 task1 = new Lab2();
+            int roots = task1.QuadraticEquation(a: 1, b: -3, c: 2, out double x1, out double x2);
+            Console.WriteLine($"Number of roots: {roots}");
+            if (roots > 0)
+            {
+                Console.WriteLine($"x1: {x1}");
+            }
+            if (roots > 1)
+            {
+                Console.WriteLine($"x2: {x2}");
+            }
 
         }
     }
-    Lab2 task1 = new Lab2();
-    int roots = task1.QuadraticEquation(a: 1, b: -3, c: 2, out double x1, out double x2);
-    Console.WriteLine("Roots - " + roots);
-    Console WriteLine("x1 = " + x1);
-    Console.WriteLine("x2 = " + x2);
 
 }
