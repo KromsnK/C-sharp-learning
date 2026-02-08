@@ -44,6 +44,20 @@ namespace Simulation
             {
                 Console.WriteLine(name);
             }
+            string[] emails = { "example@gmail.com:", "kapitan@ukr.net ", "dictlist@google.com", "student@gmail.com", "Alfred@google.com" };
+            var email = from em in emails
+                        where em.LastIndexOf('@') !=-1
+                        group em by em.Substring(em.LastIndexOf('@'));
+            foreach (var mails in email) {
+                Console.WriteLine("Domain: " + mails.Key);
+                foreach (var mail in mails)
+                    Console.WriteLine(" "+ mail);
+                Console.WriteLine();
+            }
+            
+
+
+
         }
     }  
     interface IRestable

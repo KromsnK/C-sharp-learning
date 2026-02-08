@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\Month 1\\Theory.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:My progress\\Month 1\\Theory.md||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\Month 1\\Human simulation\\Human_simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:My progress\\Month 1\\Human simulation\\Human_simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Human_simulation.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\Month 1\\Human simulation\\Human_simulation.cs",
+              "RelativeDocumentMoniker": "My progress\\Month 1\\Human simulation\\Human_simulation.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\Month 1\\Human simulation\\Human_simulation.cs",
+              "RelativeToolTip": "My progress\\Month 1\\Human simulation\\Human_simulation.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T15:53:50.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Theory.md",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\Month 1\\Theory.md",
+              "RelativeDocumentMoniker": "My progress\\Month 1\\Theory.md",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\My progress\\Month 1\\Theory.md",
+              "RelativeToolTip": "My progress\\Month 1\\Theory.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-08T15:38:31.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
