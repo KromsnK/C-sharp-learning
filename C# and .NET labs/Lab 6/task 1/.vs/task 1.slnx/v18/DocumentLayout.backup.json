@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0997360-6506-4ED8-8792-6D4DA2ED0107}|task 1.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\c# and .net labs\\lab 6\\task 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0997360-6506-4ED8-8792-6D4DA2ED0107}|task 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7262546D-C3E1-60B2-3126-A7E1052CDAAE}|task 1.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\c# and .net labs\\lab 6\\task 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7262546D-C3E1-60B2-3126-A7E1052CDAAE}|task 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7262546D-C3E1-60B2-3126-A7E1052CDAAE}|task 1.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\c# and .net labs\\lab 6\\task 1\\discs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7262546D-C3E1-60B2-3126-A7E1052CDAAE}|task 1.csproj|solutionrelative:discs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7262546D-C3E1-60B2-3126-A7E1052CDAAE}|task 1.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\c# and .net labs\\lab 6\\task 1\\printdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7262546D-C3E1-60B2-3126-A7E1052CDAAE}|task 1.csproj|solutionrelative:printdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7262546D-C3E1-60B2-3126-A7E1052CDAAE}|task 1.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\c# and .net labs\\lab 6\\task 1\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7262546D-C3E1-60B2-3126-A7E1052CDAAE}|task 1.csproj|solutionrelative:computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrintDevice.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\PrintDevice.cs",
+              "RelativeDocumentMoniker": "PrintDevice.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\PrintDevice.cs",
+              "RelativeToolTip": "PrintDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T04:00:11.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Computer.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\Computer.cs",
+              "RelativeDocumentMoniker": "Computer.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\Computer.cs",
+              "RelativeToolTip": "Computer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T03:42:33.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Discs.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\Discs.cs",
+              "RelativeDocumentMoniker": "Discs.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\Discs.cs",
+              "RelativeToolTip": "Discs.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T03:41:02.385Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 6\\task 1\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T02:49:35.071Z",
               "EditorCaption": ""

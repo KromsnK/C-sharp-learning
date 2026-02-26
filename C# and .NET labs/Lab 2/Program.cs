@@ -30,6 +30,7 @@ namespace Arrays_and_LINQ
                 return 2;
             }
         }
+        // 2
         public void NextDay(int d, int m, out int nextd, out int nextm)
         {
             nextd = d;
@@ -48,14 +49,46 @@ namespace Arrays_and_LINQ
            
 
 
-        }/*
-         public double AverageDouble(params[] nums)
+        }
+        // 3
+         public double AverageDouble(params double[] nums)
          {
-            
+            if (nums.Length == 0)
+            {
+              throw new ArgumentException("At least one number is required to calculate the average");
+            }
+            double sum = 1.0;
+            for(int i = 0; i<nums.Length;i++)
+            {
+                if (nums[i] < 0) throw new ArgumentException("Negative numbers are not allowed for geometric mean");
+                if (nums[i] == 0) return 0; // If any number is zero, the geometric mean is zero
+                sum *= nums[i];
+            }
+            return Math.Pow(sum,1.0/nums.Length);
+        }
+        // 4
+        public void Distance()
+        {
+            double Distance(double x1, double y1, double x2, double y2) => Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+            Console.WriteLine($"Distance between (1,2) and (4,6) is {Distance(1, 2, 4, 6)}");
+        }
+        // 7
+        public void LINQTest()
+        {
+            int[] nums = {20, - 5, 15, 10, 25 };
 
+            Console.WriteLine("Numbers:");
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.Write(nums[i] + "\t");
+            }
 
+            bool allPositive = nums.All(n => n > 0);
+            bool anyGreaterThan20 = nums.Any(n => n > 20);
 
-         }*/
+            Console.WriteLine($"\nAll numbers are positive: {allPositive}");
+            Console.WriteLine($"Any number greater than 20: {anyGreaterThan20}");
+        }
 
 
     };
@@ -107,6 +140,41 @@ namespace Arrays_and_LINQ
 
         }
     }
+    static class ArrayExtensions
+    {
+        public static void Fill<T>(T value, T[] arr, int left, int right)
+        {
+            if (arr == null)
+            {
+                throw new ArgumentNullException(nameof(arr), "Array cannot be null.");
+            }
+
+            if (left < 0 || right > arr.Length || left > right)
+            {
+                throw new ArgumentOutOfRangeException(nameof(left));
+            }
+
+
+            for (int i = left; i < right; i++)
+            {
+                arr[i] = value;
+            }
+        }
+        public static T[] Join<T>(T[] arr1, T[] arr2)
+        {
+            if (arr1 == null || arr2 == null)
+            {
+                throw new ArgumentNullException("Arrays cannot be null.");
+            }
+        
+            int length = arr1.Length + arr2.Length;
+            T[] result = new T[length];
+            Array.Copy(arr1, 0, result, 0, arr1.Length);
+            Array.Copy(arr2, 0, result, arr1.Length, arr2.Length);
+            return result;
+
+        }
+    }
     class Program
     {
         public static void Main()
@@ -134,11 +202,25 @@ namespace Arrays_and_LINQ
             {
                 Console.WriteLine(ex.Message);
             }
+            Console.WriteLine("\nTask 3:");
+            try
+            {
+                double avg = task1.AverageDouble(1.0, 2.0, 3.0);
+                Console.WriteLine($"Geometric mean: {avg}");
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.WriteLine("\nTask 4:");
+            task1.Distance();
             task5.Length(100);
             task5.FillArray();
-            Console.WriteLine("\nTask 5:");
+            Console.WriteLine("\nTask 5,6:");
             task5.PrintArray();
             task5.FirstIndexOfZero();
+            Console.WriteLine("\nTask 7:");
+            task1.LINQTest();
 
         }
     }

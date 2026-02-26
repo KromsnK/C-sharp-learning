@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1DE6ACA-08E4-49D0-9903-5223F8F7C501}|Lab 1.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\c# and .net labs\\lab 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1DE6ACA-08E4-49D0-9903-5223F8F7C501}|Lab 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{026152F8-15BF-44D1-2A62-DEBFE616ABAB}|Lab 1.csproj|c:\\users\\roman\\source\\repos\\c-sharp-learning\\c# and .net labs\\lab 1\\program .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{026152F8-15BF-44D1-2A62-DEBFE616ABAB}|Lab 1.csproj|solutionrelative:program .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program .cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 1\\Program .cs",
+              "RelativeDocumentMoniker": "Program .cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\C-sharp-learning\\C# and .NET labs\\Lab 1\\Program .cs",
+              "RelativeToolTip": "Program .cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T02:59:25.601Z",
+              "WhenOpened": "2026-02-06T22:44:10.529Z",
               "EditorCaption": ""
             }
           ]

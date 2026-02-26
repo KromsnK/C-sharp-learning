@@ -14,12 +14,20 @@ class Lab1
     static void Main()
     {
 
-        uint grade = 0;
+        int grade = 0;
         Console.WriteLine("========Task 1========");
         Console.WriteLine("Enter grade: ");
-        grade = Convert.ToUInt32(Console.ReadLine());
+        grade = Convert.ToInt32(Console.ReadLine());
         switch (grade)
         {
+            case < 0:
+                do
+                {
+                    Console.WriteLine("Your grade is less than 0. Please enter your grade again: ");
+                    grade = Convert.ToInt32(Console.ReadLine());
+                }
+                while (grade < 0);
+                break;
             case < 5:
                 Console.WriteLine("Bad");
                 break;
@@ -36,7 +44,7 @@ class Lab1
                 do
                 {
                     Console.WriteLine("Your grade exeed max grade in system. Please enter your grade again: ");
-                    grade = Convert.ToUInt32(Console.ReadLine());
+                    grade = Convert.ToInt32(Console.ReadLine());
                 }
                 while (grade > 12);
                 break;
@@ -60,16 +68,16 @@ class Lab1
 
         Console.WriteLine("Distance AB: ");
         double AB = Distance(x1, y1, x2, y2);
-        Console.WriteLine(AB);
+        Console.WriteLine("{0:#.##}", AB);
         Console.WriteLine("Distance BC: ");
         double BC = Distance(x2, y2, x3, y3);
-        Console.WriteLine(BC);
+        Console.WriteLine("{0:#.##}",BC);
         Console.WriteLine("Distance CA: ");
         double CA = Distance(x3, y3, x1, y1);
-        Console.WriteLine(CA);
+        Console.WriteLine("{0:#.##}",CA);
         Console.WriteLine("Area of a triangle: ");
         double area = Area(AB, BC, CA);
-        Console.WriteLine(area);
+        Console.WriteLine("{0:#.##}",area);
         Console.WriteLine("========Task 3========");
         Console.WriteLine("Enter flag height: ");
         int h = Convert.ToInt32(Console.ReadLine());
