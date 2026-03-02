@@ -142,6 +142,28 @@ namespace Arrays_and_LINQ
     }
     static class ArrayExtensions
     {
+        public static T[] CreateArray<T>(int size)
+        {
+            if(size < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(size), "Size must be non-negative.");
+            }
+            T[] arr = new T[size];
+            return arr;
+        }
+
+        public static void PrintArray<T>(T[] arr)
+        {
+            if (arr == null)
+            {
+                throw new ArgumentNullException(nameof(arr), "Array cannot be null.");
+            }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write($"{arr[i]}\t");
+            }
+            Console.WriteLine();
+        }
         public static void Fill<T>(T value, T[] arr, int left, int right)
         {
             if (arr == null)
@@ -166,13 +188,60 @@ namespace Arrays_and_LINQ
             {
                 throw new ArgumentNullException("Arrays cannot be null.");
             }
-        
+
             int length = arr1.Length + arr2.Length;
             T[] result = new T[length];
             Array.Copy(arr1, 0, result, 0, arr1.Length);
             Array.Copy(arr2, 0, result, arr1.Length, arr2.Length);
             return result;
 
+        }
+        public static int IndexOf<T>(T value, T[] arr)
+        {
+            if (arr == null)
+            {
+                throw new ArgumentNullException(nameof(arr), "Array cannot be null.");
+            }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (EqualityComparer<T>.Default.Equals(arr[i],value)) { return i; }
+            }
+            return -1;
+        }
+
+        public static T[] Intersect<T>(T[] arr1, T[] arr2)
+        {
+            if (arr1 == null || arr2 == null)
+            {
+                throw new ArgumentNullException("Arrays cannot be null.");
+            }
+            T[] result = new T[Math.Min(arr1.Length, arr2.Length)];
+            int index = 0;
+            for(int i = 0; i < arr1.Length; i++)
+            {
+                for (int j = 0; j < arr2.Length; j++)
+                {
+                    if (EqualityComparer<T>.Default.Equals(arr1[i], arr2[j]))
+                    {
+                        bool exists = false;
+                        for (int k=0; k<index; k++)
+                        {
+                            if(EqualityComparer<T>.Default.Equals(result[k], arr1[i]))
+                            {
+                                exists = true;
+                                break;
+                            }
+                        }
+                        if (exists == false)
+                        {
+                            result[index++] = arr1[i];
+                            break;
+                        }
+                    }
+                }
+            }
+            Array.Resize(ref result, index);
+            return result;
         }
     }
     class Program
@@ -221,6 +290,24 @@ namespace Arrays_and_LINQ
             task5.FirstIndexOfZero();
             Console.WriteLine("\nTask 7:");
             task1.LINQTest();
+            Console.WriteLine("\nTask 8:");
+            Console.WriteLine("Array Extensions:");
+            int[] arr1 = ArrayExtensions.CreateArray<int>(5);
+            ArrayExtensions.Fill(42, arr1, 0, arr1.Length);
+            Console.WriteLine("Array 1:");
+            ArrayExtensions.PrintArray(arr1);
+            int[] arr2 = new int[] { 42, 42, 42, 42, 42 };
+            Console.WriteLine("Array 2:");
+            ArrayExtensions.PrintArray(arr2);
+            int[] joined = ArrayExtensions.Join(arr1, arr2);
+            Console.WriteLine("Joined Array:");
+            ArrayExtensions.PrintArray(joined);
+            int index = ArrayExtensions.IndexOf(42, joined);
+            Console.WriteLine($"Index of 42 in joined array: {index}");
+            int[] intersected = ArrayExtensions.Intersect(arr1, arr2);
+            Console.WriteLine("Intersection of Array 1 and Array 2:");
+            ArrayExtensions.PrintArray(intersected);
+
 
         }
     }
